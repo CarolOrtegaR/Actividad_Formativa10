@@ -1,0 +1,88 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+#header {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    background: linear-gradient(to right, blue, green, yellow); /* Gradiente */
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out; /* Transición para hover */
+}
+
+/* Efecto hover en el encabezado */
+#header:hover {
+    background: linear-gradient(to right, green, yellow, lime); /* Cambia el gradiente */
+    color: white;
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Barra de navegación */
+#nav-bar {
+    margin: 20px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    background-color: #4CAF50; 
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    transition: all 0.3s ease-in-out; /* Transición para hover */
+}
+
+.nav-link:hover {
+    background-color: #45a049; /* Cambia a un verde más oscuro */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    color: #f9f9f9; /* Cambia el color del texto */
+}
+
+/* Sección de la tabla */
+#table-section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 80%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
